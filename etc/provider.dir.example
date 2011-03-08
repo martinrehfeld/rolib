@@ -1,0 +1,2 @@
+system_id1	<hostname>	<port>	ASCII
+system_id2	<hostname>	<port>	EBCDIC
