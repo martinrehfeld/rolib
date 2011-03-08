@@ -1,0 +1,1474 @@
+ro_ping: Connecting...
+Send-Event: 1
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000002:
+<-- USHORT:01:
+<-- CHAR: europa         :
+<-- CHAR: ro_ping        :
+<-- INT:0:
+<-- CHAR: ^:
+<-- INT:0:
+<-- LONG:000001:
+<-- CHAR: ^]:
+Message gebildet,    61 Bytes
+TCP_FRAME zu senden :^[000000006100000201europa         ro_ping        0^0000001^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000002800000202:
+--> CHAR: ^[:
+--> LONG: 00028:
+--> LONG: 00002:
+--> USHORT: 2:
+Receive-Event: 2
+-------------
+TCP_FRAME received :000001:
+--> LONG: 00001:
+TCP_FRAME received :^]:
+Message empfangen,    28 Bytes
+ro_wait_event: processing event 2.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000003:
+<-- USHORT:07:
+<-- INT:0512:
+<-- INT:01:
+<-- LONG:000001:
+<-- DATA: dirserv:
+<-- CHAR: ^]:
+Message gebildet,    41 Bytes
+TCP_FRAME zu senden :^[000000004100000307051201000001dirserv^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000003900000308:
+--> CHAR: ^[:
+--> LONG: 00039:
+--> LONG: 00003:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0512:
+--> INT: 512:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000001:
+--> LONG: 00001:
+TCP_FRAME received :05555:
+--> DATA: 05555:
+TCP_FRAME received :^]:
+Message empfangen,    39 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 6
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000004:
+<-- USHORT:06:
+<-- LONG:000000:
+<-- CHAR: ^]:
+Message gebildet,    28 Bytes
+TCP_FRAME zu senden :^[000000002800000406000000^]:
+Send-Event: 1
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000005:
+<-- USHORT:01:
+<-- CHAR: europa         :
+<-- CHAR: ro_ping        :
+<-- INT:1:
+<-- CHAR: ^:
+<-- INT:1:
+<-- LONG:000001:
+<-- CHAR: ^]:
+Message gebildet,    61 Bytes
+TCP_FRAME zu senden :^[000000006100000501europa         ro_ping        1^1000001^]:
+ro_ping: Waiting...
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000002800000402:
+--> CHAR: ^[:
+--> LONG: 00028:
+--> LONG: 00004:
+--> USHORT: 2:
+Receive-Event: 2
+-------------
+TCP_FRAME received :000001:
+--> LONG: 00001:
+TCP_FRAME received :^]:
+Message empfangen,    28 Bytes
+ro_wait_event: processing event 2.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000006:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000001:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800000607000201000001Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800000508:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00005:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000001:
+--> LONG: 00001:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000007:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000002:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800000707000201000002Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800000608:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00006:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000002:
+--> LONG: 00002:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000008:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000003:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800000807000201000003Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800000708:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00007:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000003:
+--> LONG: 00003:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000009:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000004:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800000907000201000004Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800000808:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00008:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000004:
+--> LONG: 00004:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000010:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000005:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800001007000201000005Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800000908:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00009:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000005:
+--> LONG: 00005:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000011:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000006:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800001107000201000006Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800001008:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00010:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000006:
+--> LONG: 00006:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000012:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000007:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800001207000201000007Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800001108:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00011:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000007:
+--> LONG: 00007:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000013:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000008:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800001307000201000008Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800001208:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00012:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000008:
+--> LONG: 00008:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000014:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000009:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800001407000201000009Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800001308:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00013:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000009:
+--> LONG: 00009:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000015:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000010:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800001507000201000010Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800001408:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00014:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000010:
+--> LONG: 00010:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000016:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000011:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800001607000201000011Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800001508:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00015:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000011:
+--> LONG: 00011:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000017:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000012:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800001707000201000012Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800001608:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00016:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000012:
+--> LONG: 00012:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000018:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000013:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800001807000201000013Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800001708:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00017:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000013:
+--> LONG: 00013:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000019:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000014:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800001907000201000014Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800001808:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00018:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000014:
+--> LONG: 00014:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000020:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000015:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800002007000201000015Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800001908:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00019:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000015:
+--> LONG: 00015:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000021:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000016:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800002107000201000016Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800002008:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00020:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000016:
+--> LONG: 00016:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000022:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000017:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800002207000201000017Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800002108:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00021:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000017:
+--> LONG: 00017:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000023:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000018:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800002307000201000018Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800002208:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00022:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000018:
+--> LONG: 00018:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000024:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000019:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800002407000201000019Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800002308:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00023:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000019:
+--> LONG: 00019:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000025:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000020:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800002507000201000020Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800002408:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00024:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000020:
+--> LONG: 00020:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000026:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000021:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800002607000201000021Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800002508:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00025:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000021:
+--> LONG: 00021:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000027:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000022:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800002707000201000022Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800002608:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00026:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000022:
+--> LONG: 00022:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000028:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000023:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800002807000201000023Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800002708:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00027:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000023:
+--> LONG: 00023:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000029:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000024:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800002907000201000024Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800002808:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00028:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000024:
+--> LONG: 00024:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000030:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000025:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800003007000201000025Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800002908:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00029:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000025:
+--> LONG: 00025:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000031:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000026:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800003107000201000026Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800003008:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00030:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000026:
+--> LONG: 00026:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000032:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000027:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800003207000201000027Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800003108:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00031:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000027:
+--> LONG: 00027:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000033:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000028:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800003307000201000028Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800003208:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00032:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000028:
+--> LONG: 00028:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000034:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000029:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800003407000201000029Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800003308:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00033:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000029:
+--> LONG: 00029:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000035:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000030:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800003507000201000030Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800003408:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00034:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000030:
+--> LONG: 00030:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000036:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000031:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800003607000201000031Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800003508:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00035:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000031:
+--> LONG: 00031:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000037:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000032:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800003707000201000032Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800003608:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00036:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000032:
+--> LONG: 00032:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000038:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000033:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800003807000201000033Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800003708:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00037:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000033:
+--> LONG: 00033:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000039:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000034:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800003907000201000034Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800003808:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00038:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000034:
+--> LONG: 00034:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000040:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000035:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800004007000201000035Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800003908:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00039:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000035:
+--> LONG: 00035:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000041:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000036:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800004107000201000036Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800004008:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00040:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000036:
+--> LONG: 00036:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000042:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000037:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800004207000201000037Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800004108:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00041:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000037:
+--> LONG: 00037:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000043:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000038:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800004307000201000038Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800004208:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00042:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000038:
+--> LONG: 00038:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
+Send-Event: 7
+---------------
+<-- CHAR: ^[:
+<-- LONG:0000000002:
+<-- LONG:000044:
+<-- USHORT:07:
+<-- INT:0002:
+<-- INT:01:
+<-- LONG:000039:
+<-- DATA: Hello, this is ro_ping speaking...:
+<-- CHAR: ^]:
+Message gebildet,    68 Bytes
+TCP_FRAME zu senden :^[000000006800004407000201000039Hello, this is ro_ping speaking...^]:
+ro_wait_event entered
+ro_wait_event: select
+ro_wait_event: selected...
+ro_wait_event: receiving event...
+TCP_FRAME received :^[000000006800004308:
+--> CHAR: ^[:
+--> LONG: 00068:
+--> LONG: 00043:
+--> USHORT: 8:
+Receive-Event: 8
+-------------
+TCP_FRAME received :0002:
+--> INT: 2:
+TCP_FRAME received :01:
+--> INT: 1:
+TCP_FRAME received :000039:
+--> LONG: 00039:
+TCP_FRAME received :Hello, this is ro_ping speaking...:
+--> DATA: Hello, this is ro_ping speaking...:
+TCP_FRAME received :^]:
+Message empfangen,    68 Bytes
+ro_wait_event: processing event 8.
